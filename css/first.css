@@ -3,14 +3,11 @@
   flex-direction: column;
   max-width: 1080px;
   margin: 0 auto;
+  gap: 30px;
 }
 
 .first__item {
   display: flex;
-}
-
-.first__item:not(:last-child) {
-  margin-bottom: 30px;
 }
 
 .first__image-margin {
