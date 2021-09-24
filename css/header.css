@@ -3,7 +3,8 @@
 }
 
 .header__container {
-  padding: 0px 12px;
+  max-width: 1080px;
+  margin: 0 auto;
 }
 
 .header__title {
@@ -15,5 +16,4 @@
 
 .header__text {
   margin-bottom: 30px;
-  max-width: 1080px;
 }
