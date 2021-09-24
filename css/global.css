@@ -95,16 +95,16 @@ iframe {
   padding: 25px 0px 25px 30px;
 }
 
+.conclusion__list {
+  padding-left: 25px;
+}
+
 
 .conclusion__title {
   font-weight: bold;
   font-size: 44px;
   line-height: 52px;
   margin-bottom: 20px;
-}
-
-.conclusion__list-item:before {
-  content: '— ';
 }
 
 .conclusion__text {

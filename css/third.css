@@ -39,3 +39,11 @@
   margin-bottom: 30px;
 }
 
+.third .conclusion__list-item:before {
+  content: '— ';
+}
+
+.third .conclusion__list {
+  padding-left: 0;
+}
+
