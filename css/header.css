@@ -1,0 +1,19 @@
+.header {
+  padding: 50px 0 25px;
+}
+
+.header__container {
+  padding: 0px 12px;
+}
+
+.header__title {
+  font-weight: 900;
+  font-size: 62px;
+  line-height: 73px;
+  margin-bottom: 50px;
+}
+
+.header__text {
+  margin-bottom: 30px;
+  max-width: 1080px;
+}

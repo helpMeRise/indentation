@@ -1,0 +1,104 @@
+html {
+  position: relative;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+
+  font-family: Roboto, sans-serif;
+  /* указать шрифт под проект*/
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+  background: #ffffff;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+figure,
+fieldset {
+  margin: 0;
+}
+
+iframe {
+  border: none;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 25px 12px;
+}
+
+.section__title {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.conclusion {
+  background: #F1F1F1;
+  border-radius: 10px;
+  padding: 25px 0px 25px 30px;
+}
+
+
+.conclusion__title {
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 52px;
+  margin-bottom: 20px;
+  margin-left: -25px;
+}
+

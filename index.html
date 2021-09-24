@@ -5,7 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="css.style.css">
+  <link rel="preload" href="fonts/Roboto-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Roboto-Regular.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="fonts/Roboto-Black.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Roboto-Black.woff" as="font" type="font/woff" crossorigin>
+
+  <link rel="stylesheet" href="css/style.css">
 
   <title>indentation</title>
 </head>
@@ -17,13 +22,14 @@
         <h1 class="header__title">Отступы в вёрстке: margin и padding</h1>
           <p class="header__text">В этой статье я рассмотрю самые популярные "стандартные" решения для сохранения смысла и хорошей читаемости вашего кода. Если точнее — речь пойдет об основных правилах организации отступов. Они сильно влияют на общую функциональность кода и, если всё сделано верно, позволяют легко вносить изменения в любую его часть. При этом другие части кода продолжат нормально работать.</p>
           <p class="header__text">Как это часто бывает, знание базовых принципов поможет проявить гибкость и выйти за их пределы. Эти знания особенно важны для начинающих, но также будут полезным напоминанием и для более опытных верстальщиков. Итак, поговорим о фундаментальных основах работы с отступами в вёрстке.</p>
-      
-        <ol class="header__list">
-          <h2 class="header__list-title">Подытожим:</h2>
-          <li class="header__list-item">Отступ задается от предыдущего элемента к следующему</li>
-          <li class="header__list-item">Отступ задается последнему возможному элементу в DOM-дереве</li>
-          <li class="header__list-item">Для последнего элемента группы отступ обнуляется</li>
-        </ol>
+        </div>
+        <div class="conclusion">
+          <ol class="conclusion__list">
+            <h2 class="header__list-title conclusion__title">Подытожим:</h2>
+            <li class="header__list-item conclusion__list-item">Отступ задается от предыдущего элемента к следующему</li>
+            <li class="header__list-item conclusion__list-item">Отступ задается последнему возможному элементу в DOM-дереве</li>
+            <li class="header__list-item conclusion__list-item">Для последнего элемента группы отступ обнуляется</li>
+          </ol>
         </div>
     </div>
   </header>
