@@ -1,19 +1,19 @@
-.header {
+.hero {
   padding: 50px 0 25px;
 }
 
-.header__container {
+.hero__container {
   max-width: 1084px;
   margin: 0 auto;
 }
 
-.header__title {
+.hero__title {
   font-weight: 900;
   font-size: 62px;
   line-height: 73px;
   margin-bottom: 50px;
 }
 
-.header__text {
+.hero__text {
   margin-bottom: 30px;
 }
