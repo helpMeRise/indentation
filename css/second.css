@@ -1,0 +1,31 @@
+.second__container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1080px;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.second__image {
+  max-width: 602px;
+  align-self: center;
+}
+
+.second__figure {
+  border: 1px solid #000000;
+}
+
+.second__figcaption {
+  padding: 15px 30px;
+  color: #5E5E5E;
+}
+
+.second__image_nesting {
+  align-self: center;
+  max-width: 967px;
+}
+
+.second__image_padding {
+  align-self: center;
+  max-width: 1025px;
+}
