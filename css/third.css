@@ -1,0 +1,44 @@
+.third {
+  padding-bottom: 50px;
+}
+
+.third__container {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.third__image_margin {
+  max-width: 600px;
+  align-self: center;
+}
+
+.third__image_womargin {
+  margin-top: -30px;
+}
+
+.third__image_nav {
+  align-self: center;
+  max-width: 806px;
+}
+
+.third__image_margin_style {
+  align-self: center;
+  max-width: 317px;
+}
+
+.third__image_nomargin_style {
+  align-self: center;
+  max-width: 500px;
+}
+
+.third .conclusion__list {
+  margin-bottom: 30px;
+}
+
+.third .conclusion__title {
+  margin-left: 0;
+}
