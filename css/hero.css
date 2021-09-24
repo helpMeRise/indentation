@@ -1,10 +1,5 @@
 .hero {
-  padding: 50px 0 25px;
-}
-
-.hero__container {
-  max-width: 1084px;
-  margin: 0 auto;
+  padding: 25px 0;
 }
 
 .hero__title {

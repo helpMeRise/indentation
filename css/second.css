@@ -1,18 +1,25 @@
-.second__container {
-  display: flex;
-  flex-direction: column;
-  max-width: 1081px;
-  margin: 0 auto;
-  gap: 30px;
+.second__text {
+  margin-bottom: 30px;
 }
 
 .second__image {
   max-width: 602px;
-  align-self: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.second__image_womargin {
+  margin-bottom: 0;
 }
 
 .second__figure {
   border: 1px solid #000000;
+  margin-bottom: 15px;
+}
+
+.second__figure img {
+  width: 100%;
 }
 
 .second__figcaption {
@@ -21,11 +28,15 @@
 }
 
 .second__image-nesting {
-  align-self: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 967px;
 }
 
 .second__image-padding {
-  align-self: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 1025px;
 }
