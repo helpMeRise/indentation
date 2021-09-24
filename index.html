@@ -16,36 +16,38 @@
 </head>
 <body>
 
-  <section class="hero">
-    <div class="container">
-      <div class="hero__container">
-        <h1 class="hero__title">Отступы в вёрстке: margin и padding</h1>
-          <p class="hero__text">В этой статье я рассмотрю самые популярные "стандартные" решения для сохранения смысла и хорошей читаемости вашего кода. Если точнее — речь пойдет об основных правилах организации отступов. Они сильно влияют на общую функциональность кода и, если всё сделано верно, позволяют легко вносить изменения в любую его часть. При этом другие части кода продолжат нормально работать.</p>
-          <p class="hero__text">Как это часто бывает, знание базовых принципов поможет проявить гибкость и выйти за их пределы. Эти знания особенно важны для начинающих, но также будут полезным напоминанием и для более опытных верстальщиков. Итак, поговорим о фундаментальных основах работы с отступами в вёрстке.</p>
-        </div>
-        <div class="conclusion">
-          <h2 class="hero__list-title conclusion__title">Подытожим:</h2>
-          <ol class="conclusion__list">
-            
-
-            <li class="hero__list-item conclusion__list-item">Отступ задается от предыдущего элемента к следующему</li>
-            <li class="hero__list-item conclusion__list-item">Отступ задается последнему возможному элементу в DOM-дереве</li>
-            <li class="hero__list-item conclusion__list-item">Для последнего элемента группы отступ обнуляется</li>
-          </ol>
-        </div>
-    </div>
-  </section>
+  
 
   <div class="main">
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero__container">
+          <h1 class="hero__title">Отступы в вёрстке: margin и padding</h1>
+            <p class="hero__text">В этой статье я рассмотрю самые популярные "стандартные" решения для сохранения смысла и хорошей читаемости вашего кода. Если точнее — речь пойдет об основных правилах организации отступов. Они сильно влияют на общую функциональность кода и, если всё сделано верно, позволяют легко вносить изменения в любую его часть. При этом другие части кода продолжат нормально работать.</p>
+            <p class="hero__text">Как это часто бывает, знание базовых принципов поможет проявить гибкость и выйти за их пределы. Эти знания особенно важны для начинающих, но также будут полезным напоминанием и для более опытных верстальщиков. Итак, поговорим о фундаментальных основах работы с отступами в вёрстке.</p>
+          </div>
+          <div class="conclusion">
+            <h2 class="hero__list-title conclusion__title">Подытожим:</h2>
+            <ol class="conclusion__list">
+              
+  
+              <li class="hero__list-item conclusion__list-item">Отступ задается от предыдущего элемента к следующему</li>
+              <li class="hero__list-item conclusion__list-item">Отступ задается последнему возможному элементу в DOM-дереве</li>
+              <li class="hero__list-item conclusion__list-item">Для последнего элемента группы отступ обнуляется</li>
+            </ol>
+          </div>
+      </div>
+    </section>
 
     <section class="section first">
       <div class="container">
         <div class="first__container">
           <h2 class="section__title first__title">Отступ задается от предыдущего элемента к следующему: от первого ко второму, сверху вниз, слева направо.</h2>
           <div class="first__item">
-            <figure class="first__image-margin">
-              <img src="image/first/image1.jpg" alt="Изображение с примером использования margin">
-            </figure>
+            
+              <img src="image/first/image1.jpg" alt="Изображение с примером использования margin"  class="first__image-margin">
+            
             <div class="first__info">
               <p class="first__text"><strong>ВАЖНО:</strong> margin всегда задают от предыдущего элемента к следующему.</p>
               <p class="first__text first__text_wide">Свойство <i>margin</i> необходимо только для того, чтобы отодвинуть своего соседа справа или снизу, поэтому используется margin-right и margin-bottom.</p>
@@ -59,9 +61,9 @@
               <p class="first__text">Отступы, как правило, делают в направлении от предыдущего элемента к следующему. Так элемент не будет толкать сам себя.</p>
               <p class="first__text">Изначально элемент статичен, а его положение может меняться только под воздействием свойств других блоков или свойств родителя.</p>
             </div>
-            <figure class="first__image-padding">
-              <img src="image/first/image2.jpg" alt="Изображение с примером использования padding">
-            </figure>
+            
+              <img src="image/first/image2.jpg" alt="Изображение с примером использования padding" class="first__image-padding">
+            
           </div>
         </div>
       </div>
@@ -73,13 +75,13 @@
           <h2 class="section__title second__title">Отступ задается последнему возможному элементу в DOM-дереве</h2>
 
           <p class="second__text">Вообще, margin задают исключительно между соседними элементами DOM-дерева. Для примера, посмотрите на этот список:</p>
-          <figure>
-            <img src="image/second/image3.jpg" alt="Изображение списка в html">
-          </figure>
           
-          <figure  class="second__image">
-            <img src="image/second/image4.jpg" alt="Изображение списка на странице">
-          </figure>
+            <img src="image/second/image3.jpg" alt="Изображение списка в html">
+          
+          
+          
+            <img src="image/second/image4.jpg" alt="Изображение списка на странице" class="second__image">
+          
 
           <p class="second__text">Отступ делают за счёт соседних элементов, а не дочерних:</p>
 
@@ -91,15 +93,15 @@
           <p class="second__text">Казалось бы, можно задать отступ параграфу &lt;p&gt;, либо обёртке &lt;article&gt; для достижения той же цели. Внешне останется все точно также, но так делать не рекомендуется.</p>
           <p class="second__text">Предыдущий пример был достаточно простым, но бывает вложенность значительно больше.</p>
 
-          <figure class="second__image-nesting">
-            <img src="image/second/image6.jpg" alt="Пример большей вложенности">
-          </figure>
+          
+            <img src="image/second/image6.jpg" alt="Пример большей вложенности" class="second__image-nesting">
+          
 
           <p class="second__text">В случае с заголовком, если ему необходим отступ сверху, последним элементом будет <i>section</i>. Именно для него задается <i>padding-top</i>, а не <i>div</i> с классом <i>container</i>. Свойства <i>margin</i>, которые стоят по умолчанию необходимо обнулить.</p>
 
-          <figure class="second__image-padding">
-            <img src="image/second/image7.jpg" alt="Пример отступа для заголовка">
-          </figure>
+          
+            <img src="image/second/image7.jpg" alt="Пример отступа для заголовка" class="second__image-padding">
+          
           
           <p class="second__text">Это необходимо для более простого поиска отступов в будущем — для вас или того, кто будет верстать после вас. Кроме того, возможны серьёзные проблемы при динамическом дублировании или выводе вёрстки с нестандартной структурой отступов.</p>
         </div>
@@ -114,43 +116,43 @@
           <p class="third__text">Для наглядности возьмём наш предыдущий пример с рецептами</p>
           <p class="third__text">Между рецептами расстояние одинаковое. Можно заметить, что и до следующего блока расстояние такое же.</p>
 
-          <figure  class="third__image-margin">
-            <img src="image/third/image8.jpg" alt="Отступ у последнего элемента">
-          </figure>
+          
+            <img src="image/third/image8.jpg" alt="Отступ у последнего элемента" class="third__image-margin">
+        
           
           <p class="third__text">В соответствии со вторым принципом: последний <i>margin</i> обнуляется, а нижний отступ задаётся через padding для section. Я чаще всего задаю <i>padding</i> для секции с обоих сторон, если расстояние между секциями 100px задаю секциям padding-top:50px и padding-bottom:50px.</p>
 
-          <figure class="third__image-margin">
-            <img src="image/third/image9.jpg" alt="Обнуленный последний margin">
-          </figure>
+          
+            <img src="image/third/image9.jpg" alt="Обнуленный последний margin" class="third__image-margin">
+          
 
-          <figure>
+          
             <img src="image/third/image10.jpg" alt="Предыдущие примеры в html">
             <img src="image/third/image11.jpg" alt="Предыдущие примеры в html" class="third__image-womargin">
-          </figure>
+          
           
 
           <p class="third__text">Для большего понимания рассмотрим другой пример, который часто встречается на практике:</p>
 
-          <figure>
+          
             <img src="image/third/image12.jpg" alt="Изображение стандартного хедера">
-          </figure>
+          
 
-          <figure class="third__image-nav">
-            <img src="image/third/image13.jpg" alt="Код стандартного хедера">
-          </figure>
+          
+            <img src="image/third/image13.jpg" alt="Код стандартного хедера" class="third__image-nav">
+          
 
           <p class="third__text">Здесь нас интересует отступ между пунктами меню и списком с кнопкой поиска. Отступы между пунктами меню задаются так:</p>
 
-          <figure class="third__image-margin-style">
-            <img src="image/third/image14.jpg" alt="Код стилей для отступов в меню">
-          </figure>
+          
+            <img src="image/third/image14.jpg" alt="Код стилей для отступов в меню" class="third__image-margin-style">
+          
 
           <p class="third__text">Советую использовать псевдоклассы <i>:last-child</i> чаще других, например так:</p>
 
-          <figure class="third__image-nomargin-style">
-            <img src="image/third/image15.jpg" alt="Код стилей для обнуления отступов у последнего пункта меню">
-          </figure>
+          
+            <img src="image/third/image15.jpg" alt="Код стилей для обнуления отступов у последнего пункта меню" class="third__image-nomargin-style">
+          
         </div>
 
         <div class="conclusion">
