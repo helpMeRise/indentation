@@ -79,7 +79,7 @@ iframe {
 }
 
 .container {
-  max-width: 1180px;
+  max-width: 1140px;
   margin: 0 auto;
   padding: 0px 30px;
 }
@@ -96,7 +96,7 @@ iframe {
 }
 
 .contents {
-  max-width: 1180px;
+  max-width: 1140px;
   margin: 0 auto;
   background: #F1F1F1;
   border-radius: 10px;
@@ -115,7 +115,7 @@ iframe {
 }
 
 .conclusion {
-  max-width: 1180px;
+  max-width: 1140px;
   margin: 0 auto;
   background: #F1F1F1;
   border-radius: 10px;
