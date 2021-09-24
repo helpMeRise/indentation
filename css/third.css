@@ -11,26 +11,26 @@
   margin-bottom: 30px;
 }
 
-.third__image_margin {
+.third__image-margin {
   max-width: 600px;
   align-self: center;
 }
 
-.third__image_womargin {
+.third__image-womargin {
   margin-top: -30px;
 }
 
-.third__image_nav {
+.third__image-nav {
   align-self: center;
   max-width: 806px;
 }
 
-.third__image_margin_style {
+.third__image-margin-style {
   align-self: center;
   max-width: 317px;
 }
 
-.third__image_nomargin_style {
+.third__image-nomargin-style {
   align-self: center;
   max-width: 500px;
 }
@@ -39,6 +39,3 @@
   margin-bottom: 30px;
 }
 
-.third .conclusion__title {
-  margin-left: 0;
-}
