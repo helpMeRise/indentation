@@ -6,11 +6,13 @@
   max-width: 560px;
   float: left;
   margin-right: 30px;
+  margin-bottom: 0; 
 }
 
 .first__image-padding {
   display: inline-block;
   max-width: 560px;
+  margin-bottom: 0;
 }
 
 .first__item {

@@ -4,11 +4,11 @@
 
 .hero__title {
   font-weight: 900;
-  font-size: 62px;
+  font-size: 60px;
   line-height: 73px;
   margin-bottom: 50px;
 }
 
-.hero__text {
+.hero__text:not(:last-child) {
   margin-bottom: 30px;
 }

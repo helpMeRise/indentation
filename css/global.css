@@ -95,51 +95,36 @@ iframe {
   margin-bottom: 30px;
 }
 
-.contents {
-  max-width: 1140px;
-  margin: 0 auto;
+.gray__container {
   background: #F1F1F1;
   border-radius: 10px;
-  padding: 25px 30px 25px 30px;
+  padding: 25px 30px;
 }
 
-.contents__title {
+.gray__title {
   font-weight: bold;
   font-size: 44px;
   line-height: 52px;
   margin-bottom: 20px;
 }
 
-.contents__list {
+.gray__list {
   padding-left: 25px;
 }
 
-.conclusion {
-  max-width: 1140px;
-  margin: 0 auto;
-  background: #F1F1F1;
-  border-radius: 10px;
-  padding: 25px 30px 25px 30px;
-}
-
-.conclusion__list {
-  padding-left: 25px;
+.gray__list_ul {
   margin-bottom: 30px;
 }
 
-.conclusion__list-item {
+
+.gray__list-item:not(:last-child) {
+  margin-bottom: 10px;  
+}
+.gray__list-item_ul {
   list-style-type: '— ';
 }
 
-
-.conclusion__title {
-  font-weight: bold;
-  font-size: 44px;
-  line-height: 52px;
-  margin-bottom: 20px;
-}
-
-.conclusion__text {
+.gray__text {
   max-width: 1080px;
 }
 

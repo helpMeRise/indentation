@@ -1,4 +1,4 @@
-.second__text {
+.second__text:not(:last-child) {
   margin-bottom: 30px;
 }
 
